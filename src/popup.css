@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 12px;
+  min-width: 280px;
+}
+
+#search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#scope-buttons {
+  display: flex;
+  gap: 6px;
+}
+
+#search-input {
+  flex: 1;
+  padding: 6px 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 6px 12px;
+  font-size: 14px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1558b0;
+}
